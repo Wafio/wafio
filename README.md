@@ -131,6 +131,14 @@ Scorecard every week.
 Each release bundle comes with an Ed25519 signature and an SBOM, and the installer refuses a bundle whose signature
 does not verify.
 
+## Sponsors
+
+| Sponsor | |
+|---|---|
+| [ZetGuard](https://zetguard.com) | Funds the development of WAFio. ZetGuard's server and application protection is built on the WAFio code. |
+
+To sponsor WAFio, write to <hello@wafio.cloud>.
+
 ## Licence
 
 This repository and the open components are under the GNU General Public License, version 3 only ([LICENSE](LICENSE)),
