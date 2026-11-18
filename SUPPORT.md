@@ -6,6 +6,7 @@
 | To report a bug or ask about the whole product | an issue in this repository |
 | To report a bug in one part you know | the issues of that component repository (see the table in [README.md](README.md)) |
 | To report a security problem | a private report, never an issue: [SECURITY.md](SECURITY.md) |
+| A question about open source licences, or a request for source code | [OPEN_SOURCE_POLICY.md](OPEN_SOURCE_POLICY.md) |
 | Installation, maintenance or support with a response time | <https://wafio.cloud/services> |
 | Anything else | <https://wafio.cloud/support> or <hello@wafio.cloud> |
 

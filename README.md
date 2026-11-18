@@ -149,3 +149,6 @@ wafio.cloud also include the detection engine, which is not open source; <https:
 company that wants to change WAFio and ship the result without the obligations of the GPL can get a commercial
 licence. The BPF programs of the host agent stay under GPL-2.0 in every case, because the Linux kernel requires it.
 Write to <hello@wafio.cloud>.
+
+How WAFio handles the open source it uses, ships and contributes to, and where to ask a licensing question:
+[OPEN_SOURCE_POLICY.md](OPEN_SOURCE_POLICY.md).
