@@ -135,7 +135,7 @@ does not verify.
 
 | Sponsor | |
 |---|---|
-| [ZetGuard](https://zetguard.com) | Funds the development of WAFio. ZetGuard's server and application protection is built on the WAFio code. |
+| <a href="https://zetguard.com"><img src="docs/sponsors/zetguard.png" alt="ZetGuard" height="36"></a> | Funds the development of WAFio. ZetGuard's server and application protection is built on the WAFio code. |
 
 To sponsor WAFio, write to <hello@wafio.cloud>.
 
