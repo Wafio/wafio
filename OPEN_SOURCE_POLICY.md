@@ -26,7 +26,8 @@ test tools and the servers that host wafio.cloud.
    under "Code adapted from other projects" in the notices.
 3. **Meet the obligations of each licence.** The bundles carry the licence texts and notices their components ask
    for. The eBPF objects of the host agent are under GPL-2.0, and their bundle carries their C source and the
-   GPL-2.0 text. The source of the components under GPL-3.0 is public on GitHub, tagged for each release.
+   GPL-2.0 text. The source of the components under GPL-3.0 is public on GitHub, tagged for each release; the
+   uddin-lang-rs revision built into a release carries the tag `vX.Y.Z-wafio` of that release.
 4. **Keep the records.** The bundles, their signatures, notices and SBOMs of every published release stay
    available, and WAFio keeps its own copy of each.
 5. **Answer questions.** Anyone can ask about the open source licences of WAFio (see below), and gets an answer.
