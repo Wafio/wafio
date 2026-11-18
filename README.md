@@ -144,3 +144,8 @@ To sponsor WAFio, write to <hello@wafio.cloud>.
 This repository and the open components are under the GNU General Public License, version 3 only ([LICENSE](LICENSE)),
 except uddin-lang-rs (MIT) and the BPF programs of the host agent (GPL-2.0). The official builds downloaded from
 wafio.cloud also include the detection engine, which is not open source; <https://wafio.cloud/terms> covers them.
+
+**Commercial licence.** WAFio holds the copyright in the open components and can license them under other terms. A
+company that wants to change WAFio and ship the result without the obligations of the GPL can get a commercial
+licence. The BPF programs of the host agent stay under GPL-2.0 in every case, because the Linux kernel requires it.
+Write to <hello@wafio.cloud>.
