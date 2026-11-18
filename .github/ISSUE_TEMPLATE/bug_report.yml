@@ -1,0 +1,49 @@
+name: Bug report
+description: Something in WAFio does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A security problem, or an attack that WAFio did not detect, does not go here: use "Report a security problem" instead.
+        Remove passwords, keys, tokens, cookies and personal data from what you paste.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Part
+      description: Choose "Not sure" if you do not know.
+      options:
+        - Not sure
+        - Installer or upgrade
+        - Dashboard
+        - Control plane (API, accounts, events)
+        - WAF agent
+        - Host agent (firewall, runtime security)
+        - Script rules (uddin)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: WAFio version
+      description: Shown in the dashboard footer, for example v2.1.0.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Distribution and kernel
+      description: For example Ubuntu 24.04, kernel 6.8 (uname -r).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log lines
+      description: From journalctl -u wafio, -u wafio-waf-agent or -u wafio-host-agent.
+      render: text

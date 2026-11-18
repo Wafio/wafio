@@ -1,0 +1,6 @@
+# gitleaks configuration (scripts/ci-local.sh, secret scan). The default rule set, with no allowlist.
+
+title = "wafio"
+
+[extend]
+useDefault = true

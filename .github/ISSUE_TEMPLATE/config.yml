@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem
+    url: https://github.com/Wafio/wafio/security/advisories/new
+    about: Never in a public issue. This form is private; only the maintainers read it.
+  - name: Installation and documentation
+    url: https://wafio.cloud/docs
+    about: Requirements, the installer and how each part works.
+  - name: Installation, maintenance or support with a response time
+    url: https://wafio.cloud/services
+    about: Services offered by the WAFio team.
