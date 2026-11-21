@@ -131,6 +131,13 @@ Scorecard every week.
 Each release bundle comes with an Ed25519 signature and an SBOM, and the installer refuses a bundle whose signature
 does not verify.
 
+<a href="https://openchainproject.org/community-of-conformance"><img src="docs/badges/openchain-iso-iec-5230.png" alt="OpenChain ISO/IEC 5230 conformant" height="96" align="right"></a>
+
+The open source license compliance program of WAFio conforms to ISO/IEC 5230 (OpenChain). It is self-certified and
+has been listed in the OpenChain Community of Conformance since 20 November 2026. The program is described in
+[OPEN_SOURCE_POLICY.md](OPEN_SOURCE_POLICY.md). The badge is a trademark of the OpenChain Project, used under its
+terms for conformant programs.
+
 ## Sponsors
 
 | Sponsor | |
